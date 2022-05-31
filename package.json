@@ -4,7 +4,8 @@
   "description": "",
   "main": "src/index.js",
   "scripts": {
-    "lint": "standard --fix"
+    "lint": "standard --fix",
+    "postinstall": "husky install"
   },
   "keywords": [],
   "author": "",
