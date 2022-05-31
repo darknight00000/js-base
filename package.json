@@ -1,0 +1,26 @@
+{
+  "name": "js-base",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "lint": "standard --fix"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@commitlint/cli": "^17.0.1",
+    "@commitlint/config-conventional": "^17.0.0",
+    "commitlint": "^17.0.1",
+    "husky": "^8.0.1",
+    "lint-staged": "^12.4.3",
+    "standard": "^17.0.0"
+  },
+  "lint-staged": {
+    "**/*.{js,jsx,tsx,ts}": [
+      "pnpm lint",
+      "git add ."
+    ]
+  }
+}
