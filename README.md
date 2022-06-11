@@ -10,7 +10,7 @@ Some JavaScript functions frequently asked in frontend interview
 
 [apply](./src/apply.js)
 
-[curry](./src/apply.js)
+[curry](./src/curry.js)
 
 [debounce](./src/debounce.js)
 
